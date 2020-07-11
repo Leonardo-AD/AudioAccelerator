@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Audio Accelerator",
+  "version": "0.2",
+  "description": "Acelere a velocidade de reprodução dos áudios no Whatsapp Web em 2x. | Extensão criada por: Leonardo Alves |",
+  "author": "Leonardo Alves",
+  "content_scripts": [
+      {
+          "matches": ["https://web.whatsapp.com/"],
+          "css": ["style.css"],
+          "js": ["content.js"]
+      }
+  ]
+}
+
+/* Novidade da versão 0.2 => Mudança na cor do ícone de velocidade de reprodução. */
